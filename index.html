@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>KMOR Analytics | Operations Research & Decision Science</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+you add here and updated send me 
+</head>
+
+<body class="light">
+
+<header class="site-header">
+  <div class="container header-bar">
+    <div class="brand">
+      <img src="images/logo.png" alt="KMOR Analytics Logo">
+      <span>KMOR Analytics</span>
+    </div>
+
+    <nav class="main-nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#blogs">Blogs</a>
+      <a href="#stats">Impact</a>
+      <a href="#faq">FAQ</a>
+      <a href="resume/KMOR_resume.pdf" target="_blank" class="resume-btn">
+        View Resume
+      </a>
+    </nav>
+
+    <button id="themeToggle" class="theme-btn">🌙</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <img id="heroImage" src="images/hero1.jpg" alt="Hero Image">
+
+  <div class="hero-content">
+    <h1 class="hero-title">
+      Operations Research <span>&</span> Decision Analytics
+    </h1>
+
+    <p>
+      Transforming complex data into optimized, confident, and
+      sustainable business decisions.
+    </p>
+
+    <div class="hero-actions">
+
+      <button class="glow-btn" onclick="openForm()">Free Consultation</button>
+      <button class="shine-btn" onclick="openForm()">Hire Me</button>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>Who I Am & What I Do</h2>
+  <p>
+    KMOR Analytics is led by an Operations Research Analyst specializing in
+    optimization modeling, inventory strategy, decision analytics, and
+    performance-driven business intelligence.
+  </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section colorful">
+  <h2>Projects</h2>
+  <div class="cards">
+    <div class="card">Inventory Optimization Model</div>
+    <div class="card">Supply Chain Cost Minimization</div>
+    <div class="card">Decision-Making Under Uncertainty</div>
+    <div class="card">Production Scheduling Optimization</div>
+    <div class="card">Tableau Business Intelligence Dashboard</div>
+  </div>
+</section>
+
+<!-- BLOGS -->
+<section id="blogs" class="section">
+  <h2>Blogs</h2>
+  <div class="cards">
+    <div class="card">Why Operations Research Matters in Business</div>
+    <div class="card">Optimization vs Intuition in Decision-Making</div>
+    <div class="card">Inventory Decisions That Reduce Risk</div>
+    <div class="card">Data-Driven Strategy for Growth</div>
+    <div class="card">The Power of Analytics in Operations</div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats" class="section colorful">
+  <h2>Client Impact</h2>
+  <div class="stats">
+    <div><span>25+</span> Projects Completed</div>
+    <div><span>98%</span> Client Satisfaction</div>
+    <div><span>5★</span> Average Rating</div>
+    <div><span>100%</span> Trust & Transparency</div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">What services do you offer?</button>
+    <div class="faq-answer">Optimization, decision analytics, and BI solutions.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Do you offer free consultation?</button>
+    <div class="faq-answer">Yes, initial consultation is completely free.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Which tools do you use?</button>
+    <div class="faq-answer">Mathematical models, Tableau, and analytics frameworks.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Do you support implementation?</button>
+    <div class="faq-answer">Yes, with clear documentation and guidance.</div>
+  </div>
+</section>
+
+<!-- SINGLE MODAL FORM -->
+<div id="hireModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeForm()">×</span>
+    <h2>Request a Consultation</h2>
+
+    <form action="https://formsubmit.co/kmoranalyst@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="glow-btn">Submit</button>
+    </form>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>© 2025 KMOR Analytics. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
